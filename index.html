@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraFlix - Vitórias do Corinthians</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: #fff;
+            text-align: center;
+        }
+        h1 {
+            color: #e30613;
+        }
+        .videos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        iframe, img {
+            width: 320px;
+            height: 180px;
+            border-radius: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        .card {
+            background: #222;
+            padding: 10px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body>
+    <h1>⚽ Vitórias do Corinthians ⚫⚪</h1>
+    <p>Projeto AluraFlix - 2 vídeos com &lt;iframe&gt; + 6 vídeos com link e imagem</p>
+
+    <div class="videos">
+        <!-- 2 vídeos com iframe -->
+        <div class="card">
+            <iframe src="https://www.youtube.com/embed/5hA8Q3Q6gHc" frameborder="0" allowfullscreen></iframe>
+            <p>Corinthians 2x0 Boca Juniors (Libertadores 2012 Final)</p>
+        </div>
+
+        <div class="card">
+            <iframe src="https://www.youtube.com/embed/IU7y3F4pPlQ" frameborder="0" allowfullscreen></iframe>
+            <p>Corinthians 1x0 Chelsea (Mundial 2012)</p>
+        </div>
+
+        <!-- 6 vídeos com link + imagem -->
+        <div class="card">
+            <a href="https://www.youtube.com/watch?v=0n4C-ycN_Yc" target="_blank">
+                <img src="https://img.youtube.com/vi/0n4C-ycN_Yc/0.jpg" alt="Corinthians 4x3 Palmeiras 2018">
+                <p>Corinthians 4x3 Palmeiras (2018)</p>
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="https://www.youtube.com/watch?v=muTv3ovbFyk" target="_blank">
+                <img src="https://img.youtube.com/vi/muTv3ovbFyk/0.jpg" alt="Corinthians 2x1 São Paulo 2019">
+                <p>Corinthians 2x1 São Paulo (2019)</p>
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="https://www.youtube.com/watch?v=OjWyL1wU_Y0" target="_blank">
+                <img src="https://img.youtube.com/vi/OjWyL1wU_Y0/0.jpg" alt="Corinthians 6x1 São Paulo 2015">
+                <p>Corinthians 6x1 São Paulo (2015)</p>
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="https://www.youtube.com/watch?v=z4NVu_zrkSw" target="_blank">
+                <img src="https://img.youtube.com/vi/z4NVu_zrkSw/0.jpg" alt="Corinthians 2x0 Santos 2002">
+                <p>Corinthians 2x0 Santos (Final Copa do Brasil 2002)</p>
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="https://www.youtube.com/watch?v=lAf9rF5tZK0" target="_blank">
+                <img src="https://img.youtube.com/vi/lAf9rF5tZK0/0.jpg" alt="Corinthians 2x0 Flamengo 2018">
+                <p>Corinthians 2x0 Flamengo (2018 Copa do Brasil)</p>
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="https://www.youtube.com/watch?v=apK4X6lXtM0" target="_blank">
+                <img src="https://img.youtube.com/vi/apK4X6lXtM0/0.jpg" alt="Corinthians 3x1 Internacional 2005">
+                <p>Corinthians 3x1 Internacional (2005 Brasileirão)</p>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
